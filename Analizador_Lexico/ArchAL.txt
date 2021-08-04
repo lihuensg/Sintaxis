@@ -1,5 +1,0 @@
-for i=1 to 3 do
- begin
-  a = 12,34 * i 
-  > < <> = <= >= "Hola probando _ = ?"
- end 
