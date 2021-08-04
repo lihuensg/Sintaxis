@@ -1,0 +1,6 @@
+var a1:real 
+{escribir("hola buenas",exparit);
+leer("pata",id);
+agregar(id,exparit);
+reemplazar(id,exparit,exparit);
+eliminar(id,exparit);}

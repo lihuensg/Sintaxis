@@ -1,0 +1,597 @@
+Vprograma - Programa
+  Tvar - var
+  Vvariables - 
+    TIdentificador - a
+    Tdospuntos - :
+    VTipo - 
+      TReal - Real
+    VidVar - 
+      TComa - ,
+      TIdentificador - b
+      Tdospuntos - :
+      VTipo - 
+        TReal - Real
+      VidVar - 
+        TComa - ,
+        TIdentificador - n
+        Tdospuntos - :
+        VTipo - 
+          TReal - Real
+        VidVar - 
+          TComa - ,
+          TIdentificador - i
+          Tdospuntos - :
+          VTipo - 
+            TReal - Real
+          VidVar - 
+            TComa - ,
+            TIdentificador - aux
+            Tdospuntos - :
+            VTipo - 
+              TReal - Real
+            VidVar - 
+              TComa - ,
+              TIdentificador - L
+              Tdospuntos - :
+              VTipo - 
+                TListaReal - ListaReal
+              VidVar - 
+                TComa - ,
+                TIdentificador - varianza
+                Tdospuntos - :
+                VTipo - 
+                  TReal - Real
+                VidVar - 
+                  TComa - ,
+                  TIdentificador - Promedio
+                  Tdospuntos - :
+                  VTipo - 
+                    TReal - Real
+                  VidVar - 
+  TllaveI - {
+  VCuerpo - 
+    VSent - 
+      TIdentificador - i
+      TIgual - =
+      VU - 
+        VExpArit - 
+          VA - 
+            VC - 
+              VF - 
+                Tconst - 1
+              VE - 
+            VD - 
+          VB - 
+    TPuntoyComa - ;
+    VCuerpo - 
+      VSent - 
+        TLeer - leer
+        TParI - (
+        TCadena - "Ingrese la cantidad de numeros: "
+        TComa - ,
+        TIdentificador - n
+        TParD - )
+      TPuntoyComa - ;
+      VCuerpo - 
+        VSent - 
+          TMientras - mientras
+          VCondiciones - 
+            VCond - 
+              VExpArit - 
+                VA - 
+                  VC - 
+                    VF - 
+                      TIdentificador - i
+                    VE - 
+                  VD - 
+                VB - 
+              TOpRel - <=
+              VExpArit - 
+                VA - 
+                  VC - 
+                    VF - 
+                      TIdentificador - n
+                    VE - 
+                  VD - 
+                VB - 
+            VZ - 
+            VW - 
+          TllaveI - {
+          VCuerpo - 
+            VSent - 
+              TLeer - leer
+              TParI - (
+              TCadena - "Ingrese un valor numerico: "
+              TComa - ,
+              TIdentificador - a
+              TParD - )
+            TPuntoyComa - ;
+            VCuerpo - 
+              VSent - 
+                TAgregar - agregar
+                TParI - (
+                TIdentificador - L
+                TComa - ,
+                VExpArit - 
+                  VA - 
+                    VC - 
+                      VF - 
+                        TIdentificador - a
+                      VE - 
+                    VD - 
+                  VB - 
+                TParD - )
+              TPuntoyComa - ;
+              VCuerpo - 
+                VSent - 
+                  TIdentificador - i
+                  TIgual - =
+                  VU - 
+                    VExpArit - 
+                      VA - 
+                        VC - 
+                          VF - 
+                            TIdentificador - i
+                          VE - 
+                        VD - 
+                      VB - 
+                        Tmas - +
+                        VA - 
+                          VC - 
+                            VF - 
+                              Tconst - 1
+                            VE - 
+                          VD - 
+                        VB - 
+                TPuntoyComa - ;
+                VCuerpo - 
+          TllaveD - }
+        TPuntoyComa - ;
+        VCuerpo - 
+          VSent - 
+            TIdentificador - i
+            TIgual - =
+            VU - 
+              VExpArit - 
+                VA - 
+                  VC - 
+                    VF - 
+                      Tconst - 1
+                    VE - 
+                  VD - 
+                VB - 
+          TPuntoyComa - ;
+          VCuerpo - 
+            VSent - 
+              TMientras - mientras
+              VCondiciones - 
+                VCond - 
+                  VExpArit - 
+                    VA - 
+                      VC - 
+                        VF - 
+                          TIdentificador - i
+                        VE - 
+                      VD - 
+                    VB - 
+                  TOpRel - <=
+                  VExpArit - 
+                    VA - 
+                      VC - 
+                        VF - 
+                          TIdentificador - n
+                        VE - 
+                      VD - 
+                    VB - 
+                VZ - 
+                VW - 
+              TllaveI - {
+              VCuerpo - 
+                VSent - 
+                  TIdentificador - a
+                  TIgual - =
+                  VU - 
+                    VExpArit - 
+                      VA - 
+                        VC - 
+                          VF - 
+                            Telemento - elemento
+                            TParI - (
+                            TIdentificador - L
+                            TComa - ,
+                            VExpArit - 
+                              VA - 
+                                VC - 
+                                  VF - 
+                                    TIdentificador - i
+                                  VE - 
+                                VD - 
+                              VB - 
+                            TParD - )
+                          VE - 
+                        VD - 
+                      VB - 
+                TPuntoyComa - ;
+                VCuerpo - 
+                  VSent - 
+                    TIdentificador - b
+                    TIgual - =
+                    VU - 
+                      VExpArit - 
+                        VA - 
+                          VC - 
+                            VF - 
+                              TIdentificador - b
+                            VE - 
+                          VD - 
+                        VB - 
+                          Tmas - +
+                          VA - 
+                            VC - 
+                              VF - 
+                                TIdentificador - a
+                              VE - 
+                            VD - 
+                          VB - 
+                  TPuntoyComa - ;
+                  VCuerpo - 
+                    VSent - 
+                      TIdentificador - i
+                      TIgual - =
+                      VU - 
+                        VExpArit - 
+                          VA - 
+                            VC - 
+                              VF - 
+                                TIdentificador - i
+                              VE - 
+                            VD - 
+                          VB - 
+                            Tmas - +
+                            VA - 
+                              VC - 
+                                VF - 
+                                  Tconst - 1
+                                VE - 
+                              VD - 
+                            VB - 
+                    TPuntoyComa - ;
+                    VCuerpo - 
+              TllaveD - }
+            TPuntoyComa - ;
+            VCuerpo - 
+              VSent - 
+                TIdentificador - Promedio
+                TIgual - =
+                VU - 
+                  VExpArit - 
+                    VA - 
+                      VC - 
+                        VF - 
+                          TIdentificador - b
+                        VE - 
+                      VD - 
+                        Tdiv - /
+                        VC - 
+                          VF - 
+                            TIdentificador - n
+                          VE - 
+                        VD - 
+                    VB - 
+              TPuntoyComa - ;
+              VCuerpo - 
+                VSent - 
+                  TEscribir - escribir
+                  TParI - (
+                  TCadena - "sumatoria: "
+                  TComa - ,
+                  VExpArit - 
+                    VA - 
+                      VC - 
+                        VF - 
+                          TIdentificador - b
+                        VE - 
+                      VD - 
+                    VB - 
+                  TParD - )
+                TPuntoyComa - ;
+                VCuerpo - 
+                  VSent - 
+                    TEscribir - escribir
+                    TParI - (
+                    TCadena - "Promedio: "
+                    TComa - ,
+                    VExpArit - 
+                      VA - 
+                        VC - 
+                          VF - 
+                            TIdentificador - Promedio
+                          VE - 
+                        VD - 
+                      VB - 
+                    TParD - )
+                  TPuntoyComa - ;
+                  VCuerpo - 
+                    VSent - 
+                      TIdentificador - i
+                      TIgual - =
+                      VU - 
+                        VExpArit - 
+                          VA - 
+                            VC - 
+                              VF - 
+                                Tconst - 1
+                              VE - 
+                            VD - 
+                          VB - 
+                    TPuntoyComa - ;
+                    VCuerpo - 
+                      VSent - 
+                        TIdentificador - varianza
+                        TIgual - =
+                        VU - 
+                          VExpArit - 
+                            VA - 
+                              VC - 
+                                VF - 
+                                  Tconst - 0
+                                VE - 
+                              VD - 
+                            VB - 
+                      TPuntoyComa - ;
+                      VCuerpo - 
+                        VSent - 
+                          TMientras - mientras
+                          VCondiciones - 
+                            VCond - 
+                              VExpArit - 
+                                VA - 
+                                  VC - 
+                                    VF - 
+                                      TIdentificador - i
+                                    VE - 
+                                  VD - 
+                                VB - 
+                              TOpRel - <=
+                              VExpArit - 
+                                VA - 
+                                  VC - 
+                                    VF - 
+                                      TIdentificador - n
+                                    VE - 
+                                  VD - 
+                                VB - 
+                            VZ - 
+                            VW - 
+                          TllaveI - {
+                          VCuerpo - 
+                            VSent - 
+                              TEscribir - escribir
+                              TParI - (
+                              TCadena - "i: "
+                              TComa - ,
+                              VExpArit - 
+                                VA - 
+                                  VC - 
+                                    VF - 
+                                      TIdentificador - i
+                                    VE - 
+                                  VD - 
+                                VB - 
+                              TParD - )
+                            TPuntoyComa - ;
+                            VCuerpo - 
+                              VSent - 
+                                TEscribir - escribir
+                                TParI - (
+                                TCadena - "  Elem: "
+                                TComa - ,
+                                VExpArit - 
+                                  VA - 
+                                    VC - 
+                                      VF - 
+                                        TParI - (
+                                        VExpArit - 
+                                          VA - 
+                                            VC - 
+                                              VF - 
+                                                Telemento - Elemento
+                                                TParI - (
+                                                TIdentificador - L
+                                                TComa - ,
+                                                VExpArit - 
+                                                  VA - 
+                                                    VC - 
+                                                      VF - 
+                                                        TIdentificador - i
+                                                      VE - 
+                                                    VD - 
+                                                  VB - 
+                                                TParD - )
+                                              VE - 
+                                            VD - 
+                                          VB - 
+                                            Tmenos - -
+                                            VA - 
+                                              VC - 
+                                                VF - 
+                                                  TIdentificador - promedio
+                                                VE - 
+                                              VD - 
+                                            VB - 
+                                        TParD - )
+                                      VE - 
+                                        Telev - ^
+                                        VF - 
+                                          Tconst - 2
+                                        VE - 
+                                    VD - 
+                                  VB - 
+                                TParD - )
+                              TPuntoyComa - ;
+                              VCuerpo - 
+                                VSent - 
+                                  TIdentificador - aux
+                                  TIgual - =
+                                  VU - 
+                                    VExpArit - 
+                                      VA - 
+                                        VC - 
+                                          VF - 
+                                            TParI - (
+                                            VExpArit - 
+                                              VA - 
+                                                VC - 
+                                                  VF - 
+                                                    TIdentificador - variaza
+                                                  VE - 
+                                                VD - 
+                                              VB - 
+                                            TParD - )
+                                          VE - 
+                                        VD - 
+                                      VB - 
+                                        Tmas - +
+                                        VA - 
+                                          VC - 
+                                            VF - 
+                                              TParI - (
+                                              VExpArit - 
+                                                VA - 
+                                                  VC - 
+                                                    VF - 
+                                                      Telemento - Elemento
+                                                      TParI - (
+                                                      TIdentificador - L
+                                                      TComa - ,
+                                                      VExpArit - 
+                                                        VA - 
+                                                          VC - 
+                                                            VF - 
+                                                              TIdentificador - i
+                                                            VE - 
+                                                          VD - 
+                                                        VB - 
+                                                      TParD - )
+                                                    VE - 
+                                                  VD - 
+                                                VB - 
+                                                  Tmenos - -
+                                                  VA - 
+                                                    VC - 
+                                                      VF - 
+                                                        TIdentificador - promedio
+                                                      VE - 
+                                                    VD - 
+                                                  VB - 
+                                              TParD - )
+                                            VE - 
+                                              Telev - ^
+                                              VF - 
+                                                Tconst - 2
+                                              VE - 
+                                          VD - 
+                                        VB - 
+                                TPuntoyComa - ;
+                                VCuerpo - 
+                                  VSent - 
+                                    TIdentificador - varianza
+                                    TIgual - =
+                                    VU - 
+                                      VExpArit - 
+                                        VA - 
+                                          VC - 
+                                            VF - 
+                                              TIdentificador - aux
+                                            VE - 
+                                          VD - 
+                                        VB - 
+                                  TPuntoyComa - ;
+                                  VCuerpo - 
+                                    VSent - 
+                                      TIdentificador - i
+                                      TIgual - =
+                                      VU - 
+                                        VExpArit - 
+                                          VA - 
+                                            VC - 
+                                              VF - 
+                                                TIdentificador - i
+                                              VE - 
+                                            VD - 
+                                          VB - 
+                                            Tmas - +
+                                            VA - 
+                                              VC - 
+                                                VF - 
+                                                  Tconst - 1
+                                                VE - 
+                                              VD - 
+                                            VB - 
+                                    TPuntoyComa - ;
+                                    VCuerpo - 
+                          TllaveD - }
+                        TPuntoyComa - ;
+                        VCuerpo - 
+                          VSent - 
+                            TEscribir - escribir
+                            TParI - (
+                            TCadena - "varianzaPrueba: "
+                            TComa - ,
+                            VExpArit - 
+                              VA - 
+                                VC - 
+                                  VF - 
+                                    TIdentificador - varianza
+                                  VE - 
+                                VD - 
+                              VB - 
+                            TParD - )
+                          TPuntoyComa - ;
+                          VCuerpo - 
+                            VSent - 
+                              TIdentificador - varianza
+                              TIgual - =
+                              VU - 
+                                VExpArit - 
+                                  VA - 
+                                    VC - 
+                                      VF - 
+                                        TParI - (
+                                        VExpArit - 
+                                          VA - 
+                                            VC - 
+                                              VF - 
+                                                TIdentificador - varianza
+                                              VE - 
+                                            VD - 
+                                              Tdiv - /
+                                              VC - 
+                                                VF - 
+                                                  TIdentificador - n
+                                                VE - 
+                                              VD - 
+                                          VB - 
+                                        TParD - )
+                                      VE - 
+                                    VD - 
+                                  VB - 
+                            TPuntoyComa - ;
+                            VCuerpo - 
+                              VSent - 
+                                TEscribir - escribir
+                                TParI - (
+                                TCadena - "varianza: "
+                                TComa - ,
+                                VExpArit - 
+                                  VA - 
+                                    VC - 
+                                      VF - 
+                                        TIdentificador - varianza
+                                      VE - 
+                                    VD - 
+                                  VB - 
+                                TParD - )
+                              TPuntoyComa - ;
+                              VCuerpo - 
+  TllaveD - }

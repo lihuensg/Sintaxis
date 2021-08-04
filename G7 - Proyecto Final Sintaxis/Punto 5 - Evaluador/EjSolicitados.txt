@@ -1,0 +1,33 @@
+var a:Real,b:Real,n:Real,i:Real,aux:Real,L:ListaReal,varianza:Real, Promedio:Real
+
+{i=1;
+leer("Ingrese la cantidad de numeros: ",n);
+mientras i<=n
+{
+	leer("Ingrese un valor numerico: ", a);
+	agregar(L,a);
+	i=i+1;
+};
+i=1;
+mientras i<=n 
+{
+	a=elemento(L,i);
+	b=b+a;
+	i=i+1;
+};
+	Promedio=b/n;
+        escribir("sumatoria: ",b);
+	escribir("Promedio: ", Promedio);
+i=1;
+varianza=0;
+mientras i<=n
+{
+	aux=(varianza)+(Elemento(L,i)-promedio)^2;
+	varianza=aux;
+i=i+1;
+};
+	varianza=(varianza/n);
+	escribir("varianza: ", varianza);
+} 
+
+ 

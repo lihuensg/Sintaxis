@@ -1,0 +1,85 @@
+var lista1:ListaReal, lista2:ListaReal, intercalada:ListaReal, ei:Real,ej:Real, i:Real, j:Real, aux:Real, aux1:Real , canti:real 
+{
+    i = 1;
+	mientras i <= 3 {
+	leer ( "Ingresar elemento para lista 1" , aux1);
+	agregar (lista1, aux1); 
+	leer ( "Ingresar elemento para lista2" , aux);
+	agregar (lista2, aux);  
+	i=i+1;
+  };
+    canti = cantidad(lista1);
+
+
+    i = 1;
+    mientras i <= canti {
+j = i + 1;
+        mientras j <= canti {
+                ei = Elemento(lista1, i);
+                ej = Elemento(lista1, j);
+                si ei > ej {
+                    aux = ei;
+                    reemplazar(lista1, i, ej);
+                    reemplazar(lista1, j, aux);
+                };
+                j = j + 1;
+            };
+        i = i + 1;
+};
+
+
+canti = cantidad(lista2);
+    i = 1;
+    mientras i <= canti {
+        j = i + 1;
+        mientras j <= canti {
+                ei = Elemento(lista2, i);
+                ej = Elemento(lista2, j);
+                si ei > ej {
+aux = ei;
+                    reemplazar(lista2, i, ej);
+                    reemplazar(lista2, j, aux);
+                };
+                j = j + 1;
+            };
+        i = i + 1;
+    };
+
+    i = 1;
+canti = cantidad(lista1);
+    mientras i <= canti {
+        agregar(intercalada, Elemento(lista1, i));
+        i = i + 1;
+    };
+    
+    i = 1;
+    canti = cantidad(lista2);
+    mientras i <= canti {
+        agregar(intercalada, Elemento(lista2, i));
+        i = i + 1;
+    };
+
+	canti = cantidad(intercalada);
+    i = 1;
+    mientras i <= canti {
+        j = i + 1;
+        mientras j <= canti {
+                ei = Elemento(intercalada, i);
+                ej = Elemento(intercalada, j);
+                si ei > ej {
+aux = ei;
+                    reemplazar(intercalada, i, ej);
+                    reemplazar(intercalada, j, aux);
+                };
+                j = j + 1;
+            };
+        i = i + 1;
+  };
+i = 1;
+	mientras i <= canti {
+	escribir ( "" , Elemento(intercalada, i));  
+i=i+1;
+};
+    
+	
+}

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="56"/>
+        <CursorPos X="8" Y="84"/>
+        <FoldState Value=" TM HiNB1 T0iT94+"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="pila.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Pila"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="48" Y="59"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="arbol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Arbol"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="46"/>
+        <CursorPos X="86" Y="66"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="matriz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Matriz"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="3" Y="20"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="tas_matriz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TAS_Matriz"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="53" Y="184"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="archivo.pas"/>
+        <UnitName Value="Archivo"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="29" Y="20"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="identificadores.pas"/>
+        <UnitName Value="Identificadores"/>
+        <EditorIndex Value="6"/>
+        <CursorPos X="24" Y="631"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="tabsimb.pas"/>
+        <UnitName Value="TabSimb"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="7"/>
+        <CursorPos X="33" Y="62"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="tabsimb_aplicacion.pas"/>
+        <UnitName Value="TabSimb_Aplicacion"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="3"/>
+        <CursorPos X="64" Y="50"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="project1.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="594"/>
+        <CursorPos X="32" Y="605"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="42" TopLine="21"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="43" TopLine="21"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="68" TopLine="46"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="63" TopLine="46"/>
+      </Position4>
+      <Position5>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="578" TopLine="563"/>
+      </Position5>
+      <Position6>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="579" TopLine="563"/>
+      </Position6>
+      <Position7>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="584" TopLine="563"/>
+      </Position7>
+      <Position8>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="587" TopLine="563"/>
+      </Position8>
+      <Position9>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="589" TopLine="565"/>
+      </Position9>
+      <Position10>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="591" TopLine="567"/>
+      </Position10>
+      <Position11>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="631" Column="24" TopLine="608"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="68" TopLine="46"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="36" TopLine="21"/>
+      </Position13>
+      <Position14>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="38" TopLine="21"/>
+      </Position14>
+      <Position15>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="39" TopLine="21"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="42" TopLine="21"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="43" TopLine="21"/>
+      </Position17>
+      <Position18>
+        <Filename Value="tabsimb.pas"/>
+        <Caret Line="62" Column="33" TopLine="41"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="72" Column="13" TopLine="46"/>
+      </Position19>
+      <Position20>
+        <Filename Value="tas_matriz.pas"/>
+        <Caret Line="174" Column="51" TopLine="162"/>
+      </Position20>
+      <Position21>
+        <Filename Value="tas_matriz.pas"/>
+        <Caret Line="169" Column="54" TopLine="147"/>
+      </Position21>
+      <Position22>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="31" Column="14" TopLine="20"/>
+      </Position22>
+      <Position23>
+        <Filename Value="pila.pas"/>
+        <Caret Line="23" Column="11" TopLine="34"/>
+      </Position23>
+      <Position24>
+        <Filename Value="tas_matriz.pas"/>
+        <Caret Line="184" Column="53"/>
+      </Position24>
+      <Position25>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="35" Column="7" TopLine="28"/>
+      </Position25>
+      <Position26>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="79" Column="25" TopLine="54"/>
+      </Position26>
+      <Position27>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="58" Column="24" TopLine="54"/>
+      </Position27>
+      <Position28>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="5" Column="118"/>
+      </Position28>
+      <Position29>
+        <Filename Value="arbol.pas"/>
+        <Caret Line="70" Column="63" TopLine="46"/>
+      </Position29>
+      <Position30>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <Caret Line="84" Column="8" TopLine="56"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

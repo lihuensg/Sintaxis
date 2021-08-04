@@ -1,0 +1,93 @@
+Vprograma - Programa
+  Tvar - var
+  Vvariables - 
+    TIdentificador - a1
+    Tdospuntos - :
+    VTipo - 
+      TReal - real
+    VidVar - 
+  TllaveI - {
+  VCuerpo - 
+    VSent - 
+      TEscribir - escribir
+      TParI - (
+      TCadena - "hola buenas"
+      TComa - ,
+      VExpArit - 
+        VA - 
+          VC - 
+            VF - 
+              TIdentificador - exparit
+            VE - 
+          VD - 
+        VB - 
+      TParD - )
+    TPuntoyComa - ;
+    VCuerpo - 
+      VSent - 
+        TLeer - leer
+        TParI - (
+        TCadena - "pata"
+        TComa - ,
+        TIdentificador - id
+        TParD - )
+      TPuntoyComa - ;
+      VCuerpo - 
+        VSent - 
+          TAgregar - agregar
+          TParI - (
+          TIdentificador - id
+          TComa - ,
+          VExpArit - 
+            VA - 
+              VC - 
+                VF - 
+                  TIdentificador - exparit
+                VE - 
+              VD - 
+            VB - 
+          TParD - )
+        TPuntoyComa - ;
+        VCuerpo - 
+          VSent - 
+            TReemplazar - reemplazar
+            TParI - (
+            TIdentificador - id
+            TComa - ,
+            VExpArit - 
+              VA - 
+                VC - 
+                  VF - 
+                    TIdentificador - exparit
+                  VE - 
+                VD - 
+              VB - 
+            TComa - ,
+            VExpArit - 
+              VA - 
+                VC - 
+                  VF - 
+                    TIdentificador - exparit
+                  VE - 
+                VD - 
+              VB - 
+            TParD - )
+          TPuntoyComa - ;
+          VCuerpo - 
+            VSent - 
+              TEliminar - eliminar
+              TParI - (
+              TIdentificador - id
+              TComa - ,
+              VExpArit - 
+                VA - 
+                  VC - 
+                    VF - 
+                      TIdentificador - exparit
+                    VE - 
+                  VD - 
+                VB - 
+              TParD - )
+            TPuntoyComa - ;
+            VCuerpo - 
+  TllaveD - }

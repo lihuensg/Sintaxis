@@ -1,0 +1,38 @@
+13/07 	Comienzo 9:30 hs - Finalización 12:15 hs
+	Comienzo 16:00 hs - Finalización 21:00 hs		
+    
+14/07 	Comienzo 9:30 hs - Finalización 11:00 hs
+	Comienzo 16:00 hs - Finalización 21:30 hs
+       
+15/07 	Comienzo 9:00 hs - Finalización 12:00 hs
+ 	Comienzo 16:00 hs - Finalización 22:00 hs
+        
+16/07 	Comienzo 10:00 hs - Finalización 12:00 hs
+  	Comienzo 16:00 hs - Finalización 20:00 hs
+   
+19/07 	Comienzo 9:00 hs - Finalización 12:30 hs
+	Comienzo 16:00 hs - Finalización 20:00 hs
+
+20/07 	Comienzo 9:30 hs - Finalización 11:00 hs
+	Comienzo 16:00 hs - Finalización 22:00 hs  
+
+21/07 	Comienzo 9:00 hs - Finalización 11:30 hs
+	Comienzo 14:00 hs - Finalización 20:00 hs
+
+22/07 	Comienzo 9:30 hs - Finalización 11:00 hs
+	Comienzo 16:00 hs - Finalización 21:00 hs
+ 	 	 
+23/07 	Comienzo 9:00 hs - Finalización 12:30 hs
+	Comienzo 16:00 hs - Finalización 20:00 hs
+
+24/07 	Comienzo 11:00 hs - Finalización 12:30 hs
+	Comienzo 16:00 hs - Finalización 20:00 hs    
+
+26/07 	Comienzo 9:00 hs - Finalización 12:30 hs
+	Comienzo 16:00 hs - Finalización 23:00 hs
+
+27/07 	Comienzo 9:00 hs - Finalización 12:00 hs
+	Comienzo 14:00 hs - Finalización 23:00 hs
+
+28/07 	Comienzo 9:30 hs - Finalización 11:30 hs
+	Comienzo 16:00 hs - Finalización 20:00 hs	

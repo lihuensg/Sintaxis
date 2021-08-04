@@ -1,0 +1,30 @@
+var
+ TC:real, orden:real, i: real, a:real
+
+{
+  leer ("Ingrse el total de corredores: ", TC);
+  i=1;
+  mientras i<=TC 
+   {
+  leer ("Ingrse el orden de llegada: ", orden);
+	Si orden == 1
+       {
+       escribir ("Ganaste medalla de oro! por tener el puesto: ",1);
+       escribir ("Felicidades!", 1);
+	};
+	Si orden == 2
+	{
+     	escribir ("Ganaste medalla de plata! por tener el puesto: ", 2);
+	};
+	
+	Si orden == 3	
+     	{
+	escribir ("Ganaste medalla de bronce!por tener el puesto: ", 3);
+	};
+       Si orden > 3
+	{
+	escribir ("Suerte para la proxima!", a);
+	};
+    i=i+1; 			
+    };	
+}	

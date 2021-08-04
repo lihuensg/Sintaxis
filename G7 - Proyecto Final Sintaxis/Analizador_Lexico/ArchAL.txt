@@ -1,0 +1,11 @@
+MIENTRAS i<3 
+{ escribir 
+[
+]
+;
+:
+,
+(
+) 
+1,2
+2*x

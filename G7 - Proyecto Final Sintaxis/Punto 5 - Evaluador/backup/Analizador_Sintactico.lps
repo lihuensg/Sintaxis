@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="17">
+      <Unit0>
+        <Filename Value="Analizador_Sintactico.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Interprete"/>
+        <TopLine Value="11"/>
+        <CursorPos X="21" Y="24"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="pila.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Pila"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="56"/>
+        <CursorPos Y="78"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="arbol.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Arbol"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="39"/>
+        <CursorPos Y="55"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="matriz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Matriz"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="36" Y="20"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="tas_matriz.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TAS_Matriz"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="446"/>
+        <CursorPos X="8" Y="468"/>
+        <UsageCount Value="80"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="evaluador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Evaluador"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="383"/>
+        <CursorPos X="54" Y="395"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="analizadorsintactico.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AnalizadorSintactico"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="57"/>
+        <CursorPos X="14" Y="71"/>
+        <UsageCount Value="42"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="archivo.pas"/>
+        <UnitName Value="Archivo"/>
+        <EditorIndex Value="7"/>
+        <CursorPos X="107" Y="10"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="identificadores.pas"/>
+        <UnitName Value="Identificadores"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="214"/>
+        <CursorPos X="46" Y="235"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="tabsimb.pas"/>
+        <UnitName Value="TabSimb"/>
+        <EditorIndex Value="10"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="tabsimb_aplicacion.pas"/>
+        <UnitName Value="TabSimb_Aplicacion"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="87"/>
+        <CursorPos X="28" Y="3"/>
+        <UsageCount Value="40"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="project1.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="594"/>
+        <CursorPos X="32" Y="605"/>
+        <UsageCount Value="8"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="E:\Pascal\fpc\3.0.4\source\rtl\objpas\objpas.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="24" Y="27"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="Interprete.lpr"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="55" Y="20"/>
+        <UsageCount Value="8"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="E:\Pascal\fpc\3.0.4\source\rtl\objpas\math.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="352"/>
+        <CursorPos X="10" Y="366"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="E:\Pascal\fpc\3.0.4\source\rtl\inc\mathh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="88"/>
+        <CursorPos X="14" Y="101"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="E:\Pascal\fpc\3.0.4\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="158"/>
+        <CursorPos X="25" Y="179"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="204" TopLine="181"/>
+      </Position1>
+      <Position2>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="205" TopLine="182"/>
+      </Position2>
+      <Position3>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="206" TopLine="183"/>
+      </Position3>
+      <Position4>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="207" TopLine="184"/>
+      </Position4>
+      <Position5>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="208" TopLine="185"/>
+      </Position5>
+      <Position6>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="209" TopLine="186"/>
+      </Position6>
+      <Position7>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="210" TopLine="187"/>
+      </Position7>
+      <Position8>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="211" TopLine="188"/>
+      </Position8>
+      <Position9>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="212" TopLine="189"/>
+      </Position9>
+      <Position10>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="213" TopLine="190"/>
+      </Position10>
+      <Position11>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="214" TopLine="191"/>
+      </Position11>
+      <Position12>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="215" TopLine="192"/>
+      </Position12>
+      <Position13>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="216" TopLine="193"/>
+      </Position13>
+      <Position14>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="217" TopLine="194"/>
+      </Position14>
+      <Position15>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="218" TopLine="195"/>
+      </Position15>
+      <Position16>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="219" TopLine="196"/>
+      </Position16>
+      <Position17>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="220" TopLine="197"/>
+      </Position17>
+      <Position18>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="222" TopLine="199"/>
+      </Position18>
+      <Position19>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="223" TopLine="200"/>
+      </Position19>
+      <Position20>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="225" TopLine="202"/>
+      </Position20>
+      <Position21>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="226" TopLine="203"/>
+      </Position21>
+      <Position22>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="161" TopLine="147"/>
+      </Position22>
+      <Position23>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="220" Column="21" TopLine="213"/>
+      </Position23>
+      <Position24>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="231" TopLine="213"/>
+      </Position24>
+      <Position25>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="223" TopLine="213"/>
+      </Position25>
+      <Position26>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="233" TopLine="213"/>
+      </Position26>
+      <Position27>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="172" TopLine="158"/>
+      </Position27>
+      <Position28>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="239" TopLine="225"/>
+      </Position28>
+      <Position29>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="607" Column="23" TopLine="595"/>
+      </Position29>
+      <Position30>
+        <Filename Value="identificadores.pas"/>
+        <Caret Line="235" Column="46" TopLine="214"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
